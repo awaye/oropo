@@ -12,7 +12,7 @@ import mlx_whisper
 class TranscriptionEngine:
     """Transcribes audio files to text using Whisper"""
     
-    def __init__(self, model_name="mlx-community/whisper-tiny"):
+    def __init__(self, model_name="mlx-community/whisper-small"):
         """
         Initialize the transcription engine
         
