@@ -54,28 +54,31 @@ class VoiceTypingApp(rumps.App):
     
     def _build_menu(self):
         """Build the menu structure like Whryte"""
+        # Empty callback to prevent greying out
+        noop = lambda _: None
+        
         # Status item at top
         self.status_item = rumps.MenuItem("Status: Idle")
-        self.status_item.set_callback(None)
+        self.status_item.set_callback(noop)
         
         # Hotkeys submenu with record option
-        self.hotkeys_menu = rumps.MenuItem("⌨️ Hotkeys")
+        self.hotkeys_menu = rumps.MenuItem("⌨ Hotkeys")
         self._build_hotkeys_menu()
         
         # History submenu
-        self.history_menu = rumps.MenuItem("🕐 History")
+        self.history_menu = rumps.MenuItem("◷ History")
         self._update_history_menu()
         
         # Statistics section - INLINE (not submenu)
-        self.stats_header = rumps.MenuItem("─────── STATISTICS ───────")
-        self.stats_header.set_callback(None)
+        self.stats_header = rumps.MenuItem("───── STATISTICS ─────")
+        self.stats_header.set_callback(noop)
         
-        self.stats_today = rumps.MenuItem(f"📊 Today's Words                    {self.stats.get_today_words()}")
-        self.stats_today.set_callback(None)
-        self.stats_total = rumps.MenuItem(f"📄 Total Words                        {self.stats.get_total_words()}")
-        self.stats_total.set_callback(None)
-        self.stats_time = rumps.MenuItem(f"⏱️ Time Saved                         {self.stats.get_time_saved_minutes()} min")
-        self.stats_time.set_callback(None)
+        self.stats_today = rumps.MenuItem(f"  Today's Words                    {self.stats.get_today_words()}")
+        self.stats_today.set_callback(noop)
+        self.stats_total = rumps.MenuItem(f"  Total Words                        {self.stats.get_total_words()}")
+        self.stats_total.set_callback(noop)
+        self.stats_time = rumps.MenuItem(f"  Time Saved                         {self.stats.get_time_saved_minutes()} min")
+        self.stats_time.set_callback(noop)
         
         # Build full menu
         self.menu = [
@@ -89,9 +92,9 @@ class VoiceTypingApp(rumps.App):
             self.stats_total,
             self.stats_time,
             None,
-            rumps.MenuItem("❓ How to Use", callback=self.show_help),
+            rumps.MenuItem("? How to Use", callback=self.show_help),
             None,
-            rumps.MenuItem("🔄 Restart", callback=self.restart_app),
+            rumps.MenuItem("↺ Restart", callback=self.restart_app),
             rumps.MenuItem("⏻ Quit", callback=self.quit_app),
         ]
     
@@ -121,7 +124,7 @@ class VoiceTypingApp(rumps.App):
         self.hotkeys_menu.add(None)
         
         # Custom hotkey option
-        self.hotkeys_menu.add(rumps.MenuItem("🎯 Record Custom Hotkey...", callback=self._start_record_hotkey))
+        self.hotkeys_menu.add(rumps.MenuItem("○ Record Custom Hotkey...", callback=self._start_record_hotkey))
     
     def _set_preset_hotkey(self, preset_name):
         """Set a preset hotkey"""
@@ -187,9 +190,9 @@ class VoiceTypingApp(rumps.App):
     
     def _update_stats_display(self):
         """Update statistics in menu"""
-        self.stats_today.title = f"📊 Today's Words                    {self.stats.get_today_words()}"
-        self.stats_total.title = f"📄 Total Words                        {self.stats.get_total_words()}"
-        self.stats_time.title = f"⏱️ Time Saved                         {self.stats.get_time_saved_minutes()} min"
+        self.stats_today.title = f"  Today's Words                    {self.stats.get_today_words()}"
+        self.stats_total.title = f"  Total Words                        {self.stats.get_total_words()}"
+        self.stats_time.title = f"  Time Saved                         {self.stats.get_time_saved_minutes()} min"
     
     def _update_history_menu(self):
         """Update history submenu"""
@@ -208,19 +211,19 @@ class VoiceTypingApp(rumps.App):
                 item_menu = rumps.MenuItem(entry["display"])
                 
                 paste_item = rumps.MenuItem(
-                    "📋 Paste at Cursor",
+                    "→ Paste at Cursor",
                     callback=lambda _, text=entry["full_text"]: self._paste_history_item(text)
                 )
                 item_menu.add(paste_item)
                 
                 copy_item = rumps.MenuItem(
-                    "📄 Copy to Clipboard",
+                    "⎘ Copy to Clipboard",
                     callback=lambda _, text=entry["full_text"]: self._copy_history_item(text)
                 )
                 item_menu.add(copy_item)
                 
                 delete_item = rumps.MenuItem(
-                    "🗑️ Delete",
+                    "✕ Delete",
                     callback=lambda _, idx=i: self._delete_history_item(idx)
                 )
                 item_menu.add(delete_item)
