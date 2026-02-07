@@ -1,0 +1,21 @@
+# Voice Typing Assistant Dependencies
+# macOS Menu Bar App
+rumps>=0.4.0
+
+# Global Hotkey Detection
+pynput>=1.7.6
+
+# Audio Recording
+pyaudio>=0.2.14
+numpy>=1.24.0
+
+# Transcription (Apple Silicon optimized)
+mlx>=0.5.0
+mlx-whisper>=0.1.0
+
+# Text Injection
+pyperclip>=1.8.2
+pyautogui>=0.9.54
+
+# Audio file handling
+soundfile>=0.12.1
