@@ -11,7 +11,7 @@ from datetime import datetime
 class HistoryManager:
     """Manages transcription history with persistent storage"""
     
-    MAX_ENTRIES = 20  # Keep last 20 transcriptions
+    MAX_ENTRIES = 10  # Keep last 10 transcriptions
     
     def __init__(self):
         self.history_dir = os.path.expanduser("~/.oropo")
@@ -91,6 +91,14 @@ class HistoryManager:
         """Clear all history"""
         self.history = []
         self._save_history()
+    
+    def delete_entry(self, index):
+        """Delete a specific history entry by index"""
+        if 0 <= index < len(self.history):
+            del self.history[index]
+            self._save_history()
+            return True
+        return False
 
 
 # Test

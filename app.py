@@ -110,27 +110,53 @@ class VoiceTypingApp(rumps.App):
             empty_item.set_callback(None)
             self.history_menu.add(empty_item)
         else:
-            for entry in history[:10]:  # Show last 10 in menu
-                item = rumps.MenuItem(
-                    entry["display"],
+            for i, entry in enumerate(history):
+                # Create submenu for each history item
+                item_menu = rumps.MenuItem(entry["display"])
+                
+                # Paste option - pastes at cursor
+                paste_item = rumps.MenuItem(
+                    "📋 Paste at Cursor",
+                    callback=lambda _, text=entry["full_text"]: self._paste_history_item(text)
+                )
+                item_menu.add(paste_item)
+                
+                # Copy option - copies to clipboard
+                copy_item = rumps.MenuItem(
+                    "📄 Copy to Clipboard",
                     callback=lambda _, text=entry["full_text"]: self._copy_history_item(text)
                 )
-                self.history_menu.add(item)
-            
-            if len(history) > 10:
-                self.history_menu.add(None)  # Separator
-                more_item = rumps.MenuItem(f"({len(history)} total entries)")
-                more_item.set_callback(None)
-                self.history_menu.add(more_item)
+                item_menu.add(copy_item)
+                
+                # Delete option
+                delete_item = rumps.MenuItem(
+                    "🗑️ Delete",
+                    callback=lambda _, idx=i: self._delete_history_item(idx)
+                )
+                item_menu.add(delete_item)
+                
+                self.history_menu.add(item_menu)
         
         self.history_menu.add(None)  # Separator
-        self.history_menu.add(rumps.MenuItem("Clear History", callback=self._clear_history))
+        self.history_menu.add(rumps.MenuItem("Clear All History", callback=self._clear_history))
+    
+    def _paste_history_item(self, text):
+        """Paste a history item at cursor"""
+        success = self.injector.paste_text(text)
+        if success:
+            rumps.notification("Oropo", "Pasted!", text[:30] + "..." if len(text) > 30 else text)
     
     def _copy_history_item(self, text):
         """Copy a history item to clipboard"""
         import pyperclip
         pyperclip.copy(text)
         rumps.notification("Oropo", "Copied to clipboard", text[:50] + "..." if len(text) > 50 else text)
+    
+    def _delete_history_item(self, index):
+        """Delete a history item"""
+        self.history.delete_entry(index)
+        self._update_history_menu()
+        rumps.notification("Oropo", "Deleted", "History entry removed")
     
     def _clear_history(self, _):
         """Clear all history"""

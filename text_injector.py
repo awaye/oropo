@@ -41,8 +41,9 @@ class TextInjector:
             # Copy new text to clipboard
             pyperclip.copy(text)
             
-            # Small delay to ensure clipboard is updated
-            time.sleep(0.05)
+            # IMPORTANT: Wait for user to fully release their hotkey
+            # This prevents the "V" appearing when Command is still held
+            time.sleep(0.15)
             
             # Simulate Cmd+V to paste
             pyautogui.hotkey('command', 'v')
