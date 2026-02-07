@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Whryte</string>
+	<key>CFBundleExecutable</key>
+	<string>Whryte</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.whryte.app</string>
+	<key>CFBundleName</key>
+	<string>Whryte</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Whryte needs accessibility access to insert transcribed text into other applications.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2024 Whryte. All rights reserved.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Whryte needs access to your microphone to transcribe speech with AI.</string>
+	<key>NSSystemAdministrationUsageDescription</key>
+	<string>Whryte needs permission to monitor keyboard events for the global hotkey.</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Whryte sends notifications when AI models are ready to use.</string>
+</dict>
+</plist>
