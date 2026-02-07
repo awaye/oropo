@@ -413,9 +413,10 @@ class VoiceTypingApp(rumps.App):
     
     def restart_app(self, _):
         """Restart the application"""
-        import os
-        import sys
-        os.execv(sys.executable, ['python'] + sys.argv)
+        rumps.alert(
+            title="Restart Required",
+            message="Please quit the app and reopen it to restart.\n\nUse the 'Launch Voice Typing.command' file on your Desktop."
+        )
     
     def quit_app(self, _):
         """Clean up and quit"""
