@@ -43,7 +43,7 @@ class TextInjector:
             
             # IMPORTANT: Wait for user to fully release their hotkey
             # This prevents the "V" appearing when Command is still held
-            time.sleep(0.15)
+            time.sleep(0.25)
             
             # Simulate Cmd+V to paste
             pyautogui.hotkey('command', 'v')
