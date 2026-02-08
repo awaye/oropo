@@ -1,0 +1,25 @@
+{
+  "": {
+    "dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElementsModule.d",
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElementsModule.o",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/master.swiftdeps"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-collections/Sources/TrailingElementsModule/TrailingArray.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingArray.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingArray~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingArray.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingArray.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-collections/Sources/TrailingElementsModule/TrailingElements.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElements.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElements~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElements.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElements.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-collections/Sources/TrailingElementsModule/TrailingPadding.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingPadding.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingPadding~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingPadding.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingPadding.dia"
+  }
+}

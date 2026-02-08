@@ -1,0 +1,25 @@
+{
+  "": {
+    "dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/generate_docc_reference.d",
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/generate_docc_reference.o",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/master.swiftdeps"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/ArgumentParser+Markdown.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/ArgumentParser+Markdown.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/ArgumentParser+Markdown~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/ArgumentParser+Markdown.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/ArgumentParser+Markdown.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/Process+SimpleAPI.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/Process+SimpleAPI.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/Process+SimpleAPI~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/Process+SimpleAPI.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/Process+SimpleAPI.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/GenerateDoccReference.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/GenerateDoccReference.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/GenerateDoccReference~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/GenerateDoccReference.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/generate_docc_reference.build/GenerateDoccReference.dia"
+  }
+}

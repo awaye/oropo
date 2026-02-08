@@ -1,0 +1,37 @@
+{
+  "": {
+    "dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/WhisperKitCLI.d",
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/WhisperKitCLI.o",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/master.swiftdeps"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/WhisperKit/Sources/WhisperKitCLI/CLIUtils.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/CLIUtils.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/CLIUtils~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/CLIUtils.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/CLIUtils.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/WhisperKit/Sources/WhisperKitCLI/TranscribeCLI.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLI.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLI~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLI.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLI.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/WhisperKit/Sources/WhisperKitCLI/TranscribeCLIArguments.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLIArguments.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLIArguments~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLIArguments.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLIArguments.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/WhisperKit/Sources/WhisperKitCLI/TranscribeCLIUtils.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLIUtils.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLIUtils~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLIUtils.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/TranscribeCLIUtils.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/WhisperKit/Sources/WhisperKitCLI/WhisperKitCLI.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/WhisperKitCLI.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/WhisperKitCLI~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/WhisperKitCLI.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/WhisperKitCLI.build/WhisperKitCLI.dia"
+  }
+}

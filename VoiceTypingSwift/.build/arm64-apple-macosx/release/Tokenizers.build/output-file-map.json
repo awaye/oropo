@@ -1,0 +1,85 @@
+{
+  "": {
+    "dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Tokenizers.d",
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Tokenizers.o",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/master.swiftdeps"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/BPETokenizer.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/BPETokenizer.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/BPETokenizer~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/BPETokenizer.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/BPETokenizer.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/BertTokenizer.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/BertTokenizer.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/BertTokenizer~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/BertTokenizer.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/BertTokenizer.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/ByteEncoder.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/ByteEncoder.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/ByteEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/ByteEncoder.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/ByteEncoder.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/Decoder.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Decoder.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Decoder~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Decoder.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Decoder.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/Normalizer.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Normalizer.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Normalizer~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Normalizer.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Normalizer.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/PostProcessor.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/PostProcessor.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/PostProcessor~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/PostProcessor.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/PostProcessor.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/PreTokenizer.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/PreTokenizer.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/PreTokenizer~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/PreTokenizer.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/PreTokenizer.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/String+PreTokenization.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/String+PreTokenization.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/String+PreTokenization~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/String+PreTokenization.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/String+PreTokenization.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/TokenLattice.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/TokenLattice.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/TokenLattice~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/TokenLattice.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/TokenLattice.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/Tokenizer.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Tokenizer.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Tokenizer~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Tokenizer.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Tokenizer.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/Trie.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Trie.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Trie~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Trie.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Trie.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/UnigramTokenizer.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/UnigramTokenizer.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/UnigramTokenizer~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/UnigramTokenizer.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/UnigramTokenizer.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/checkouts/swift-transformers/Sources/Tokenizers/Utils.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Utils.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Utils~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Utils.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingSwift/.build/arm64-apple-macosx/release/Tokenizers.build/Utils.dia"
+  }
+}
