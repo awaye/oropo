@@ -1,0 +1,38 @@
+name: Build Windows App
+
+on:
+  push:
+    branches: [ "windows-version" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      working-directory: ./VoiceTypingWindows
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pyinstaller
+
+    - name: Build EXE
+      working-directory: ./VoiceTypingWindows
+      run: |
+        pyinstaller --onefile --noconsole --name "VoiceTyping" --hidden-import=faster_whisper --hidden-import=pystray --icon=NONE main.py
+        # Note: --icon=NONE because we don't have an .ico file yet. 
+        # If we had one, we'd use --icon=voice_typing.ico
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: VoiceTyping-Windows
+        path: VoiceTypingWindows/dist/VoiceTyping.exe

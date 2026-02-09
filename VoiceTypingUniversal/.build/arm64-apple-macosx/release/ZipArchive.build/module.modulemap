@@ -1,0 +1,4 @@
+module ZipArchive {
+    umbrella header "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/checkouts/ZipArchive/SSZipArchive/include/ZipArchive.h"
+    export *
+}

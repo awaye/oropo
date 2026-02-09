@@ -1,0 +1,55 @@
+{
+  "": {
+    "dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/VoiceTyping.d",
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/VoiceTyping.o",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/master.swiftdeps"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/Sources/AppDelegate.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/AppDelegate.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/AppDelegate.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/AppDelegate.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/Sources/AudioRecorder.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/AudioRecorder.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/AudioRecorder~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/AudioRecorder.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/AudioRecorder.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/Sources/HistoryManager.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/HistoryManager.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/HistoryManager~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/HistoryManager.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/HistoryManager.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/Sources/StatsManager.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/StatsManager.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/StatsManager~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/StatsManager.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/StatsManager.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/Sources/TextInjector.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/TextInjector.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/TextInjector~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/TextInjector.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/TextInjector.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/Sources/TranscriptionEngine.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/TranscriptionEngine.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/TranscriptionEngine~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/TranscriptionEngine.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/TranscriptionEngine.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/Sources/main.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/main.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/main.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/main.dia"
+  },
+  "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/DerivedSources/resource_bundle_accessor.swift": {
+    "object": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Volumes/Awaye-SSD/AntiGravity/STT/VoiceTypingUniversal/.build/arm64-apple-macosx/release/VoiceTyping.build/resource_bundle_accessor.dia"
+  }
+}
